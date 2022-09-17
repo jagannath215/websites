@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="My Portfolio website to showase my work what i hve done so fa, the services I can provide and my total pofessional Experience">
+    <meta name="keywords"
+        content="Portfolio website, Jagannath, HTML,css, Javascript, resume website, my portfolio, basic javascript">
+    <meta name="author" content="Jagannath Dey">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Jagannat's Portfolio - Web Devoloper</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="/index.html" class="header-logo"><img src="images/placeholder.png" data-src="images/logo.png"
+                alt="JD-Logo" class="logo"></a>
+        <!-- ====================================================
+
+    Dark Mode Start
+    
+    ====================================================  -->
+        <input type="checkbox" name="" id="dark_mode">
+        <label for="dark_mode" class="label">
+            <span class="toogle"></span>
+        </label>
+        <nav class="navbar">
+            <ul class="navbar-ul-lists">
+                <li><a href="/index.html" class="navbar-link home-link">Home</a></li>
+                <li><a href="#about.html" class="navbar-link about-link">About</a></li>
+                <li><a href="#section-service" class="navbar-link service-link">Services</a></li>
+                <li><a href="#section-biodata" class="navbar-link resume-link">Resume</a></li>
+                <li><a href="#section-contact" class="navbar-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+
+    <!-- ====================================================
+
+    Main Section Start
+    
+    ====================================================  -->
+    <main>
+        <section class="section section-hero">
+            <div class="container grid grid-two-column">
+                <!-- hero left side -->
+                <div class="section-hero-data">
+                    <p class="hero-top-data">This is me</p>
+                    <h1 class="hero-heading">Jagannath Dey</h1>
+                    <div class="animate-text-container">
+                        I am a
+                        <span class="animate-text">I am a Web Devoloper.</span>
+                    </div>
+                    <div>
+                        <a href="#section-contact" class="btn hire-me-btn">Hire me</a>
+                    </div>
+                </div>
+                <!-- hero right side -->
+                <div class="sectio-hero-image">
+                    <img src="images/roundplace.jpg" data-src="images/jagnew.jpeg" alt="jag logo" class="hero-image">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ====================================================
+
+    Bio-data  Section Start
+    
+    ====================================================  -->
+    <section class="section section-biodata">
+        <div class="container grid grid-two-column">
+            <!-- Bio-data left side -->
+            <div class="bio-image">
+                <img src="images/roundplace.jpg" loading="lazy" data-src="images/jaglink.jpg" alt="">
+            </div>
+            <div class="bio-data">
+                <h2 class="common-heading">My Bio-Data</h2>
+                <p>Software Developer || Quintiq Specialist ||Serving Notice period|| HTML || CSS ||Javascript|| Web
+                    Development || Front end developer || MERN Devoloper </p>
+                <br />
+                <p>Sofware Devoloper At Tata Consultancy Services. Quintiq L1 certified..</p>
+                <div class="bio-data-stats">
+                    <div class="bio-stats">
+                        <h3>Html</h3>
+                        <div class="bio-progress-bar">
+                            <span>99%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>CSS</h3>
+                        <div class="bio-progress-bar bio-progress-2">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>Javascript</h3>
+                        <div class="bio-progress-bar bio-progress-3">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>Quintiq</h3>
+                        <div class="bio-progress-bar bio-progress-4">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>MERN</h3>
+                        <div class="bio-progress-bar bio-progress-5">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>React</h3>
+                        <div class="bio-progress-bar bio-progress-6">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bio-data-btn">
+                    <a href="#" class="btn">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================================================
+
+    Protfolio Section Start
+    
+    ====================================================  -->
+    <section class="section section-protfolio" id="portfolio-section">
+        <div class="container">
+            <h2 class="common-heading">Latest Projects</h2>
+            <p>Experience of 70 months in Information Technology Industry. <b> I have worked as full stack Web Devoloper
+                    and Quintiq Expert in Supply chain management..</b> </p>
+        </div>
+        <div class="p-btns">
+            <div class="btn p-btn" data-btn-num="1">Websites</div>
+            <div class="btn p-btn" data-btn-num="2">Quintiq</div>
+            <div class="btn p-btn" data-btn-num="3">Design</div>
+        </div>
+        <div class="grid grid-three-column container portfolio-images">
+            <div class="img-overlay p-btn--2 p-btn--3">
+                <img src="images/placeholder.png" data-src="images/1.jpg" loading="lazy" alt="Quintiq scheduler">
+                <div class="overlay">
+                    <a href="#" target="_schedulr" class="common-heading">Project 1</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--3">
+                <img src="images/2.jpg" alt="Quintiq scheduler">
+                <div class="overlay">
+                    <a href="#" target="_schedulr" class="common-heading">Project 2</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--1 p-btn--3">
+                <img src="images/3.jpg" alt="Quintiq scheduler">
+                <div class="overlay">
+                    <a href="#" target="_schedulr" class="common-heading">Project 3</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--2">
+                <img src="images/3.jpg" alt="Quintiq scheduler">
+                <div class="overlay">
+                    <a href="#" target="_schedulr" class="common-heading">Project 4</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--3">
+                <img src="images/1.jpg" alt="Quintiq scheduler">
+                <div class="overlay">
+                    <a href="#" target="_schedulr" class="common-heading">Project 5</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--1">
+                <img src="images/2.jpg" alt="Quintiq scheduler">
+                <div class="overlay">
+                    <a href="#" target="_schedulr" class="common-heading">Project 6</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================
+
+    Animated Work Data Section Start
+    
+    ====================================================  -->
+    <section class="section section-work-data">
+        <div class="container grid grid-four-column">
+            <div>
+                <h2 class="counter-number" data-number="72">0+</h2>
+                <p>Industial Experience(In months)</p>
+            </div>
+            <div>
+                <h2 class="counter-number" data-number="50">0+</h2>
+                <p>Web Development Projects</p>
+            </div>
+            <div>
+                <h2 class="counter-number" data-number="10">0+</h2>
+                <p>Quintiq Projects(Indeustial)</p>
+            </div>
+            <div>
+                <h2 class="counter-number" data-number="24">0+</h2>
+                <p>Freelance Experience(In months)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================
+
+    Service Section Start
+    
+    ====================================================  -->
+    <section class="section section-service">
+        <div class="container">
+            <h2 class="common-heading">Our Services</h2>
+            <p>we ensure the best quality web design service at reasonable prices to help your business succeed online.
+            </p>
+        </div>
+
+        <!-- service card start -->
+        <div class="container grid grid-three-column">
+            <div class="service-box">
+                <ion-icon name="logo-css3" class="service-icon"></ion-icon>
+                <h3>Web Design</h3>
+                <p>No matter what your budget or project, we make it easy to get started.</p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="calendar-outline" class="service-icon"></ion-icon>
+                <h3>Quintiq scheduler</h3>
+                <p>I have worked for more than 15 months as QS in Production Scheduler</p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="logo-react" class="service-icon"></ion-icon>
+                <h3>Websites Devolopment</h3>
+                <p>Design awesome website – Make your Business online and build strong online presence.</p>
+            </div>
+
+            <div class="service-box">
+                <ion-icon name="people-sharp" class="service-icon"></ion-icon>
+                <h3>Quintiq Workforce Planning</h3>
+                <p>I have worked in Quintiq workforce planning for more than 36 months as QS.</p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="logo-nodejs" class="service-icon"></ion-icon>
+                <h3>Backend Devolopment</h3>
+                <p>We also build Backend for your Websites with latest technologies and database. </p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="logo-web-component" class="service-icon"></ion-icon>
+                <h3>Web Hosting</h3>
+                <p>Don’t miss out on the most effective way to host with unique domain name..</p>
+            </div>
+        </div>
+    </section>
+    <!-- ====================================================
+
+    Testimonial Section Start
+    
+    ====================================================  -->
+
+    <section class="section section-testimonial">
+        <div class="container">
+            <h2 class="common-heading">Happy Clients</h2>
+        </div>
+
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>With Jagannat's help, we were able to increase the functionality of our website dramatically
+                            while cutting our costs. Our website is much more easy to use, has tons of more features
+                            than before and is incredibly easy to maintain. We could not be more happy with our new
+                            website! Thanks Jagannath!</p>
+
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure><img src="images/clients/1.jpg" alt="Client"></figure>
+                        <div class="client-data-details">
+                            <p>Janhabi Roy</p>
+                            <p>CEO of Janu's Kitchen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>Jagannath is the greatest — so responsive and timely in getting back to me if I have
+                            questions or need to make changes. I love his design sense, and his willingness to dig down
+                            deep to understand my business and what’s important to me and the people I need to reach.
+                            I’m so thankful I found Jagannath!</p>
+
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure><img src="images/clients/3.jpg" alt="Client"></figure>
+                        <div class="client-data-details">
+                            <p>Joyprakash Khanra</p>
+                            <p>VC at TDG</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>We just completed our new website with Iceberg Web Design and are so excited to have it
+                            live!! It is so professionally done and eye appealing, not to mention how great it looks and
+                            works with mobile devices. We tried it on an iPhone and android and it was great on both!
+                        </p>
+
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure><img src="images/clients/2.jpg" alt="Client"></figure>
+                        <div class="client-data-details">
+                            <p>Sathi Dawn</p>
+                            <p>Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>When you choose Jagannath, you get a wonderful, professional team with innovative ideas,
+                            awesome customer service, and exactly what you’re looking for. Jagannath took the ideas that
+                            we had and put them perfectly on the web</p>
+
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure><img src="images/clients/4.jpg" alt="Client"></figure>
+                        <div class="client-data-details">
+                            <p>Dip Dey</p>
+                            <p>Online Food Delivery</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>With Jagannat's help, We are able to Plan our workforce in Quintiq. We used to plan daily for
+                            our employees. He help us to solved lots of issue. Thanks!</p>
+
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure><img src="images/clients/5.png" alt="Client"></figure>
+                        <div class="client-data-details">
+                            <p>Carl Moore</p>
+                            <p>User at RMG(UK)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>Thanks Jagannat for creating such a responsive website in a short span of time. Also he makes
+                            backend for us. We are getting 3k+ views daily and did not get any slowness in our system.
+                        </p>
+
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure><img src="images/clients/6.png" alt="Client"></figure>
+                        <div class="client-data-details">
+                            <p>David Mohammad</p>
+                            <p>Manager at Quintiq Scheduler</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- ====================================================
+
+    Freelancing Section Start
+    
+    ====================================================  -->
+    <div class="section section-freelancing">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>I am <span>available</span> for freelancing</h2>
+            <p>If you are not willing to risk the unusual, you will have to settle for the ordinary</p>
+            <a href="#section-contact" class="btn freelance-btn">Hire Me</a>
+        </div>
+    </div>
+    <!-- ====================================================
+
+    Contact Section Start
+    
+    ====================================================  -->
+
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">Contact Me</h2>
+        </div>
+        <div class="section-contact-main contact-container">
+            <form action="https://formspree.io/f/mrgdpaak" method="POST">
+                <div class="grid grid-two-column">
+                    <div>
+                        <label for="username"></label>
+                        <input type="text" name="username" id="usename" autocomplete="off" required
+                            placeholder="User Name">
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" autocomplete="off" required placeholder="Email">
+                    </div>
+                </div>
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" class="subject" autocomplete="off" required placeholder="Subject"
+                        id="subject">
+                </div>
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="textarea" id="textarea" cols="30" autocomplete="off" required rows="10"
+                        placeholder="Type your message" minlength="5"></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="submit" class="btn" id="submit" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ====================================================
+
+    Footer Section Start
+    
+    ====================================================  -->
+    <footer class="footer section">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>Software Developer || Quintiq Specialist ||Serving Notice period|| HTML || CSS ||Javascript|| Web
+                    Development || Front end developer || MERN Devoloper</p>
+            </div>
+            <!-- end -->
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="#">Home</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="#">About</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="#">Services</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- end -->
+            <div class="f-services">
+                <h3>Services</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="#">Web Design</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="#">Website Devolopment</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="#">Quintiq</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="#">Backend Devolopment</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="#">React Website</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="#">Quintiq Workforce Planning</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="#">Web Hosting</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end -->
+            <div class="f-address">
+                <h3>Have a Question?</h3>
+                <address>
+                    <div>
+                        <p><span>
+                                <ion-icon name="location-outline"></ion-icon>
+                            </span>Sonamukhi, Dist- Bankura, West Bengal, India</p>
+                    </div>
+                    <div>
+                        <p><span>
+                                <ion-icon name="call-outline"></ion-icon>
+                            </span><a href="tel:+917980310021">+91-7980310021</a></p>
+                    </div>
+                    <div>
+                        <p><span>
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </span><a href="mailto:jagannathdey223@gmail.com">jagannathdey223@gmail.com</a></p>
+                    </div>
+                </address>
+            </div>
+        </div>
+        <div class="container">
+            <div class="f-socail-links">
+                <a href="https://www.facebook.com/jagannath.dey" target="_blank">
+                    <ion-icon class="icons" name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/jagannath-dey-85b91a206/" target="_blank">
+                    <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="https://wa.me/+917980310021" target="_blank">
+                    <ion-icon class="icons" name="logo-whatsapp"></ion-icon>
+                </a>
+            </div>
+        </div>
+        <div class="f-credit container">
+            <p>Copyright &copy;2022 All rights reserved | This is made by Jagannath Dey!!</p>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+
+</html>
